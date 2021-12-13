@@ -39,9 +39,12 @@ namespace KafkaTest
                 //var reqJobj = new KsqlRequest() { ksql = ksql, streamsProperties = new StreamsProperties() { OffSetType = offSetType.ToString().ToLower() } };
 
                 //var byteArray = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(reqJobj));
-                //var stream = req.GetRequestStream();
-                //stream.Write(byteArray, 0, byteArray.Length);
-                //stream.Close();
+                //var reqStream = req.GetRequestStream();
+                //reqStream.Write(byteArray, 0, byteArray.Length);
+                //reqStream.Close();
+
+                //res = (HttpWebResponse)req.GetResponse();
+                //var stream = res.GetResponseStream();
                 #endregion
 
 
