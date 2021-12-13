@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yongee.low\\Documents\\Octafa\\C#\\KafkaRestApiTest\\KafkaTest\\KafkaTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yongee.low\\Documents\\Octafa\\C#\\KafkaRestApiTest\\KafkaTest\\KafkaTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yongee.low\\Documents\\Octafa\\C#\\KafkaRestApiTest\\KafkaTest\\KafkaTest.csproj",
+        "projectName": "KafkaTest",
+        "projectPath": "C:\\Users\\yongee.low\\Documents\\Octafa\\C#\\KafkaRestApiTest\\KafkaTest\\KafkaTest.csproj",
+        "packagesPath": "C:\\Users\\yongee.low\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yongee.low\\Documents\\Octafa\\C#\\KafkaRestApiTest\\KafkaTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yongee.low\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Nito.AsyncEx.Context": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "ksqlDb.RestApi.Client": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
